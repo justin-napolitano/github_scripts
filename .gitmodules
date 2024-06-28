@@ -1,0 +1,3 @@
+[submodule "gh_submodule_sync"]
+	path = gh_submodule_sync
+	url = https://github.com/justin-napolitano/gh_submodule_sync.git
