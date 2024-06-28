@@ -1,13 +1,5 @@
-+++
-title =  "Store Useful Github Scripts"
-description = "Getting started with script storage"
-author = "Justin Napolitano"
-tags = ['python', "bash","programming","github"]
-images = ["images/feature-image.png"]
-+++
 
-
-<!-- # GitHub Scripts Repository -->
+# GitHub Scripts Repository
 
 ## Overview
 
