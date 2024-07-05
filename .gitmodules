@@ -4,3 +4,6 @@
 [submodule "gh_create_from_template"]
 	path = gh_create_from_template
 	url = https://github.com/justin-napolitano/gh_create_from_template.git
+[submodule "add-submodule-script"]
+	path = add-submodule-script
+	url = https://github.com/justin-napolitano/add-submodule-script.git
