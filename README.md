@@ -1,91 +1,84 @@
-
 # GitHub Scripts Repository
 
-## Overview
+A collection of shell scripts designed to automate and manage GitHub repository tasks, particularly focused on handling Git submodules and repository creation workflows. Each script is modularized as a submodule, enabling easy updates and integration.
 
-The `github-scripts` repository is a collection of useful scripts for managing and automating tasks in GitHub repositories. Each script is maintained as a submodule, allowing for modular management and easy updates.
+## Features
 
-## Table of Contents
+- Synchronize Git submodules recursively to their latest remote commits.
+- Automate adding submodules to a Git super project, including branch creation and pull request initiation.
+- Create new GitHub repositories from a template and clone them locally using GitHub CLI.
 
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Submodules](#submodules)
-  - [Sync Submodules Script](#sync-submodules-script)
-  - [Add Your Submodule Here](#add-your-submodule-here)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+## Tech Stack
 
-## Repository Structure
+- Shell scripting (Bash)
+- Git and GitHub CLI
+
+## Getting Started
+
+### Prerequisites
+
+- Git installed and configured.
+- GitHub CLI (`gh`) installed and authenticated for scripts that interact with GitHub.
+
+### Installation
+
+Clone the repository with submodules:
+
+```bash
+git clone --recurse-submodules https://github.com/justin-napolitano/github_scripts.git
+cd github_scripts
+```
+
+### Usage
+
+Each script is maintained as a submodule with its own documentation. Below are summaries:
+
+#### Sync Submodules Script
+
+Synchronizes all Git submodules to their latest remote commits.
+
+```bash
+cd gh_submodule_sync
+chmod +x sync_submodules.sh
+./sync_submodules.sh
+```
+
+#### Add Submodule Script
+
+Adds a submodule to your Git super project, pushes the branch, and creates a pull request.
+
+```bash
+cd add-submodule-script
+chmod +x add_submodule.sh
+./add_submodule.sh <submodule-link> <location>
+```
+
+#### Create and Clone GitHub Repository Script
+
+Creates a new GitHub repo from a template and clones it locally.
+
+```bash
+cd gh_create_from_template
+chmod +x create_and_clone_repo.sh
+./create_and_clone_repo.sh
+```
+
+## Project Structure
 
 ```
-github-scripts/
-├── sync-submodules-script/   # Submodule for syncing Git submodules
-│   ├── sync_submodules.sh    # Bash script to sync submodules
-│   └── README.md             # Documentation for the sync-submodules-script
-├── another-submodule/        # Placeholder for another submodule
-│   ├── script.sh             # Another script
-│   └── README.md             # Documentation for another script
-└── README.md                 # Documentation for the github-scripts repository
+github_scripts/
+├── add-submodule-script/       # Script and docs to add a submodule and create PR
+├── gh_create_from_template/    # Script and docs to create repo from template and clone
+├── gh_submodule_sync/          # Script and docs to sync submodules recursively
+├── gh_submodule_sync.sh        # Sync submodules script at root
+├── index.md                    # Overview and usage
+├── README.md                   # This file
 ```
 
-## Submodules
+## Future Work / Roadmap
 
-### Sync Submodules Script
-
-The `sync-submodules-script` submodule is designed to initialize and update all submodules in a GitHub repository to the latest commits from their respective remote repositories.
-
-#### Usage
-
-1. Initialize and update the submodules:
-   ```sh
-   git submodule update --init --recursive --remote
-   ```
-
-2. Run the script:
-   ```sh
-   ./sync_submodules.sh
-   ```
-
-For more details, refer to the [Sync Submodules Script Documentation](sync-submodules-script/README.md).
-
-### Add Your Submodule Here
-
-*Description and usage instructions for additional submodules will be added here.*
-
-## How to Use
-
-1. Clone the `github-scripts` repository:
-   ```sh
-   git clone --recurse-submodules https://github.com/your-username/github-scripts.git
-   ```
-
-2. Navigate to the repository:
-   ```sh
-   cd github-scripts
-   ```
-
-3. Follow the usage instructions for each submodule as described in their respective README files.
-
-## Contributing
-
-We welcome contributions to the `github-scripts` repository! To contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```sh
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them:
-   ```sh
-   git commit -m "Add your commit message"
-   ```
-4. Push to the branch:
-   ```sh
-   git push origin feature/your-feature-name
-   ```
-5. Create a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+- Add more modular scripts for common GitHub automation tasks.
+- Enhance error handling and logging in existing scripts.
+- Support private repository templates and authentication flows.
+- Provide Dockerized versions for environment consistency.
+- Expand documentation with examples and troubleshooting guides.
