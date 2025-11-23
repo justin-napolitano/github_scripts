@@ -1,6 +1,0 @@
-[submodule "gh_submodule_sync"]
-	path = gh_submodule_sync
-	url = https://github.com/justin-napolitano/gh_submodule_sync.git
-[submodule "gh_create_from_template"]
-	path = gh_create_from_template
-	url = https://github.com/justin-napolitano/gh_create_from_template.git
