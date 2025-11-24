@@ -20,6 +20,12 @@ seoSecondaryKeywords:
   - github cli
   - repository management
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 1
+topicFamilyNotes: >-
+  The post focuses on shell scripts automating GitHub repository management tasks including
+  submodule synchronization and repository creation, which directly matches the Automation family
+  description and example slugs.
 ---
 
 # GitHub Scripts Repository: Technical Overview
@@ -78,3 +84,4 @@ Managing Git submodules can be cumbersome, especially when dealing with nested s
 ## Summary
 
 This repository provides practical, shell-based automation tools for GitHub repository management, focusing on submodule synchronization, submodule addition with PR creation, and repository creation from templates. The approach prioritizes simplicity, modularity, and integration with existing Git and GitHub workflows, making it a useful reference for developers managing complex GitHub projects with submodules.
+
