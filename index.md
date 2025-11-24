@@ -1,12 +1,26 @@
 ---
-slug: "github-github-scripts"
-title: "github_scripts"
-repo: "justin-napolitano/github_scripts"
-githubUrl: "https://github.com/justin-napolitano/github_scripts"
-generatedAt: "2025-11-23T09:02:41.683782Z"
-source: "github-auto"
+slug: github-github-scripts
+title: Shell Scripts for GitHub Repo Automation and Submodule Management
+repo: justin-napolitano/github_scripts
+githubUrl: https://github.com/justin-napolitano/github_scripts
+generatedAt: '2025-11-23T09:02:41.683782Z'
+source: github-auto
+summary: >-
+  Collection of shell scripts automating GitHub repository tasks including submodule sync, submodule
+  addition with PR creation, and cloning from templates.
+tags:
+  - github
+  - git-submodules
+  - shell-scripts
+  - github-cli
+  - repo-automation
+seoPrimaryKeyword: github automation scripts
+seoSecondaryKeywords:
+  - git submodules
+  - github cli
+  - repository management
+seoOptimized: true
 ---
-
 
 # GitHub Scripts Repository: Technical Overview
 
