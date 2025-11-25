@@ -1,20 +1,28 @@
 ---
 slug: github-github-scripts
 id: github-github-scripts
-title: GitHub Scripts Repository
+title: Automate GitHub Tasks with Shell Scripts
 repo: justin-napolitano/github_scripts
 githubUrl: https://github.com/justin-napolitano/github_scripts
 generatedAt: '2025-11-24T21:34:57.750Z'
 source: github-auto
 summary: >-
-  A collection of shell scripts designed to automate and manage GitHub
-  repository tasks, particularly focused on handling Git submodules and
-  repository creation workflows. Each script is modularized as a submodule,
-  enabling easy updates and integration.
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore a collection of shell scripts for automating GitHub repository tasks,
+  focusing on submodules and repository creation.
+tags:
+  - bash
+  - git
+  - automation
+  - submodules
+  - repository management
+seoPrimaryKeyword: github repository automation scripts
+seoSecondaryKeywords:
+  - git submodule sync
+  - create github repository script
+  - add submodule script
+  - github cli usage
+  - shell scripting for github
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
