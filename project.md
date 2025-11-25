@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/github_scripts
 generatedAt: '2025-11-24T21:34:57.750Z'
 source: github-auto
 summary: >-
-  Explore a collection of shell scripts for automating GitHub tasks, including
-  submodule management and repository creation.
+  Explore a collection of shell scripts for automating GitHub tasks, including submodule management
+  and repository creation.
 tags:
   - bash
   - git
@@ -24,8 +24,8 @@ seoSecondaryKeywords:
   - github cli automation
   - shell scripting for github
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: automation
+topicFamilyConfidence: 0.95
 kind: project
 entryLayout: project
 showInProjects: true
@@ -116,4 +116,5 @@ github_scripts/
 - Support private repository templates and authentication flows.
 - Provide Dockerized versions for environment consistency.
 - Expand documentation with examples and troubleshooting guides.
+
 
