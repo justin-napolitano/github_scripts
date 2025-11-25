@@ -1,31 +1,40 @@
 ---
 slug: github-github-scripts
-title: Shell Scripts for GitHub Repo Automation and Submodule Management
+title: Automate GitHub Repository Management with Shell Scripts
 repo: justin-napolitano/github_scripts
 githubUrl: https://github.com/justin-napolitano/github_scripts
 generatedAt: '2025-11-23T09:02:41.683782Z'
 source: github-auto
 summary: >-
-  Collection of shell scripts automating GitHub repository tasks including submodule sync, submodule
-  addition with PR creation, and cloning from templates.
+  Explore shell scripts for automating GitHub repository tasks, including
+  submodule management and repository creation workflows.
 tags:
   - github
   - git-submodules
   - shell-scripts
   - github-cli
   - repo-automation
-seoPrimaryKeyword: github automation scripts
+  - git
+  - bash
+  - automation
+  - submodules
+  - cli
+seoPrimaryKeyword: github repository automation scripts
 seoSecondaryKeywords:
-  - git submodules
-  - github cli
-  - repository management
+  - git submodule management
+  - bash scripts for github
+  - repository creation automation
+  - github cli scripts
+  - automating git workflows
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 1
 topicFamilyNotes: >-
-  The post focuses on shell scripts automating GitHub repository management tasks including
-  submodule synchronization and repository creation, which directly matches the Automation family
-  description and example slugs.
+  The post focuses on shell scripts automating GitHub repository management
+  tasks including submodule synchronization and repository creation, which
+  directly matches the Automation family description and example slugs.
+kind: project
+id: github-github-scripts
 ---
 
 # GitHub Scripts Repository: Technical Overview
